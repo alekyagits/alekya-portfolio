@@ -1,0 +1,542 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Alekya Linga — software developer with a Master's in Computer Science from Kennesaw State University (Dec 2024). Web development, machine learning and network security projects.">
+  <title>Alekya Linga | Software Developer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+  <div class="scroll-progress" aria-hidden="true"></div>
+
+  <header class="site-header">
+    <nav class="nav container" aria-label="Main">
+      <a class="brand" href="#top">Alekya<span>.</span></a>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="nav-links">
+        <span class="visually-hidden">Open menu</span>
+        <span class="bar"></span><span class="bar"></span>
+      </button>
+      <ul class="nav-links" id="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#skills">Skills</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#education">Education</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <li>
+          <button class="theme-toggle" type="button" aria-label="Switch to dark theme">
+            <span aria-hidden="true">◐</span>
+          </button>
+        </li>
+      </ul>
+    </nav>
+  </header>
+
+  <main id="main">
+    <!-- ============ HERO ============ -->
+    <section class="hero-section" id="top">
+      <div class="hero container">
+        <div class="hero-text">
+          <p class="eyebrow reveal">Software Developer · Open to work</p>
+          <h1 class="reveal">Hello, I'm <em>Alekya Linga</em>.<br>I build secure, thoughtful software.</h1>
+          <p class="typed-line reveal">
+            Passionate about
+            <span class="typed" aria-hidden="true" data-words="web development|machine learning|cybersecurity|cloud computing|clean, elegant code">web development</span><span class="caret-blink" aria-hidden="true">|</span>
+            <span class="visually-hidden">web development, machine learning, cybersecurity and cloud computing</span>
+          </p>
+          <p class="lead reveal">
+            A Computer Science Master's graduate from Kennesaw State University (December 2024)
+            with hands-on work in web development, machine learning and network security.
+            I'm looking for my first full-time role as a software or web developer.
+          </p>
+          <div class="hero-actions reveal">
+            <a class="btn btn-primary" href="#projects">View my work <span class="btn-arrow" aria-hidden="true">→</span></a>
+            <a class="btn btn-ghost" href="#contact" data-topic="Resume request">Request my resume</a>
+          </div>
+        </div>
+
+        <div class="hero-art reveal">
+          <svg class="hero-svg" viewBox="0 0 480 420" role="img" aria-labelledby="hero-art-title">
+            <title id="hero-art-title">Illustration of a developer's desk: a code editor describing Alekya, a cup of coffee and a plant</title>
+            <circle class="art-blob" cx="245" cy="205" r="180"/>
+            <circle class="art-ring spin-slow" cx="245" cy="205" r="200"/>
+
+            <!-- code editor -->
+            <g class="float-slow">
+              <rect class="editor" x="50" y="62" width="370" height="236" rx="14"/>
+              <path class="editor-bar" d="M64 62h342a14 14 0 0 1 14 14v18H50V76a14 14 0 0 1 14-14z"/>
+              <circle cx="74" cy="78" r="5" fill="#e07a6b"/>
+              <circle cx="92" cy="78" r="5" fill="#e3b45a"/>
+              <circle cx="110" cy="78" r="5" fill="#6aa877"/>
+              <text class="editor-file" x="235" y="82" text-anchor="middle">alekya.js</text>
+              <g class="code">
+                <text class="line l1" x="74" y="126"><tspan class="kw">const</tspan> <tspan class="var">alekya</tspan> = {</text>
+                <text class="line l2" x="96" y="150"><tspan class="prop">role</tspan>: <tspan class="str">"Software Developer"</tspan>,</text>
+                <text class="line l3" x="96" y="174"><tspan class="prop">skills</tspan>: [<tspan class="str">"JS"</tspan>, <tspan class="str">"Python"</tspan>, <tspan class="str">"SQL"</tspan>],</text>
+                <text class="line l4" x="96" y="198"><tspan class="prop">passion</tspan>: <tspan class="kw">Infinity</tspan>,</text>
+                <text class="line l5" x="96" y="222"><tspan class="prop">openToWork</tspan>: <tspan class="kw">true</tspan>,</text>
+                <text class="line l6" x="74" y="246">};</text>
+                <text class="line l7" x="74" y="274"><tspan class="var">alekya</tspan>.<tspan class="fn">build</tspan>(<tspan class="str">"great things"</tspan>);</text>
+              </g>
+              <rect class="caret" x="312" y="262" width="8" height="16" rx="1"/>
+            </g>
+
+            <!-- floating badges -->
+            <g class="float-a">
+              <rect class="badge" x="14" y="150" width="62" height="40" rx="12"/>
+              <text class="badge-text accent-text" x="45" y="176" text-anchor="middle">&lt;/&gt;</text>
+            </g>
+            <g class="float-b">
+              <rect class="badge" x="300" y="14" width="150" height="38" rx="19"/>
+              <circle cx="322" cy="33" r="5" fill="#5c9a6b"/>
+              <text class="badge-text" x="334" y="38">Open to work ✦</text>
+            </g>
+            <g class="float-c">
+              <rect class="badge" x="226" y="318" width="132" height="36" rx="18"/>
+              <path d="M246 336l6 6 11-12" fill="none" stroke="#5c9a6b" stroke-width="3" stroke-linecap="round" stroke-linejoin="round"/>
+              <text class="badge-text" x="272" y="341">Deployed</text>
+            </g>
+
+            <!-- desk -->
+            <line class="desk" x1="20" y1="388" x2="460" y2="388"/>
+
+            <!-- coffee -->
+            <g>
+              <path class="steam s1" d="M82 330c-6-8 6-14 0-22"/>
+              <path class="steam s2" d="M96 328c-6-8 6-14 0-22"/>
+              <path class="steam s3" d="M110 330c-6-8 6-14 0-22"/>
+              <rect class="mug" x="70" y="338" width="54" height="50" rx="9"/>
+              <path class="mug-handle" d="M124 348h6a10 10 0 0 1 0 20h-6"/>
+            </g>
+
+            <!-- plant -->
+            <g class="sway">
+              <path class="leaf" d="M420 342c-26-6-40-30-34-54 22 6 36 28 34 54z"/>
+              <path class="leaf leaf-alt" d="M422 342c4-28 24-46 48-44-2 24-22 42-48 44z"/>
+              <path class="leaf" d="M421 340c-10-26-2-52 18-62 10 22 2 48-18 62z"/>
+            </g>
+            <path class="pot" d="M396 340h52l-6 48h-40z"/>
+          </svg>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ STATS ============ -->
+    <section class="stats container" aria-label="Highlights">
+      <ul class="stats-grid">
+        <li class="reveal"><strong class="count" data-count="3">3</strong><span>Academic projects</span></li>
+        <li class="reveal"><strong class="count" data-count="10" data-suffix="+">10+</strong><span>Web projects built</span></li>
+        <li class="reveal"><strong class="count" data-count="5">5</strong><span>Certifications</span></li>
+        <li class="reveal"><strong class="count" data-count="1">1</strong><span>Research publication</span></li>
+      </ul>
+    </section>
+
+    <!-- ============ TECH MARQUEE ============ -->
+    <div class="marquee" aria-hidden="true">
+      <div class="marquee-track">
+        <span>JavaScript</span><span>Python</span><span>Java</span><span>HTML5</span><span>CSS3</span><span>MySQL</span><span>AWS</span><span>Azure DevOps</span><span>scikit-learn</span><span>Pandas</span><span>Git</span><span>Linux</span><span>Tableau</span><span>Blockchain</span>
+        <span>JavaScript</span><span>Python</span><span>Java</span><span>HTML5</span><span>CSS3</span><span>MySQL</span><span>AWS</span><span>Azure DevOps</span><span>scikit-learn</span><span>Pandas</span><span>Git</span><span>Linux</span><span>Tableau</span><span>Blockchain</span>
+      </div>
+    </div>
+
+    <!-- ============ ABOUT ============ -->
+    <section class="section" id="about" aria-labelledby="about-title">
+      <div class="container about-grid">
+        <div class="about-photo reveal">
+          <!-- Add a professional photo as asserts/profile.jpg, then swap this div for
+               <img src="./asserts/profile.jpg" alt="Portrait of Alekya Linga" width="320" height="400"> -->
+          <img class="profile-photo" src="./asserts/profile.jpg" alt="Portrait of Alekya Linga smiling, wearing a green kurta" width="320" height="400">
+          <div class="photo-placeholder" role="img" aria-label="Alekya Linga monogram" hidden>A</div>
+          <ul class="trait-chips" aria-label="What I bring">
+            <li class="trait t1"><span aria-hidden="true">💡</span> Curious mind</li>
+            <li class="trait t2"><span aria-hidden="true">⚡</span> Fast learner</li>
+            <li class="trait t3"><span aria-hidden="true">🤝</span> Team player</li>
+          </ul>
+        </div>
+        <div class="reveal">
+          <p class="section-number">01</p>
+          <h2 id="about-title">About me</h2>
+          <p>
+            I earned my <strong>Master of Computer Science</strong> from
+            <strong>Kennesaw State University</strong>, Georgia, in December 2024, after a
+            B.Tech in Computer Science from Vasireddy Venkatadri Institute of Technology.
+          </p>
+          <p>
+            As a research assistant at KSU, I used machine learning to detect anomalies in
+            network traffic and strengthen firewall security. My academic work ranges from a
+            blockchain-based voting system to an ML intrusion detection system, plus a
+            published paper on stress detection with ML.
+          </p>
+          <p>
+            Today I'm sharpening my front-end skills by building real projects in HTML, CSS
+            and JavaScript. This portfolio is the latest one. I enjoy work that is secure,
+            reliable and pleasant to use.
+          </p>
+          <ul class="facts">
+            <li><span>Based in</span>Andhra Pradesh, India</li>
+            <li><span>Education</span>M.S. Computer Science, Dec 2024</li>
+            <li><span>Looking for</span>Software / Web developer roles</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ SKILLS ============ -->
+    <section class="section section-alt" id="skills" aria-labelledby="skills-title">
+      <div class="container">
+        <p class="section-number reveal">02</p>
+        <h2 id="skills-title" class="reveal">Skills &amp; tools</h2>
+        <div class="skills-grid">
+          <article class="skill-card reveal">
+            <h3>Languages</h3>
+            <ul class="chips"><li>Python</li><li>Java</li><li>JavaScript</li><li>C</li><li>SQL</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Web</h3>
+            <ul class="chips"><li>HTML5</li><li>CSS3</li><li>JavaScript (ES6+)</li><li>Responsive design</li><li>Bootstrap 5</li><li>REST APIs</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Data &amp; ML</h3>
+            <ul class="chips"><li>scikit-learn</li><li>Pandas</li><li>NumPy</li><li>SciPy</li><li>Matplotlib</li><li>Seaborn</li><li>Tableau</li><li>SSIS</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Databases</h3>
+            <ul class="chips"><li>MySQL</li><li>Oracle SQL</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Cloud</h3>
+            <ul class="chips"><li>AWS</li><li>Azure DevOps</li></ul>
+          </article>
+          <article class="skill-card reveal">
+            <h3>Tools</h3>
+            <ul class="chips"><li>Git &amp; GitHub</li><li>Linux</li><li>VS Code</li><li>Eclipse</li><li>Google Colab</li><li>Claude Code</li></ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EXPERIENCE ============ -->
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <div class="container">
+        <p class="section-number reveal">03</p>
+        <h2 id="experience-title" class="reveal">Experience</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <p class="timeline-date">Apr 2024 – Dec 2024</p>
+            <h3>Research Assistant</h3>
+            <p class="timeline-org">Kennesaw State University · Marietta, Georgia</p>
+            <ul class="bullets">
+              <li>Researched ways to strengthen firewall security with <strong>dynamic anomaly detection</strong>, under the mentorship of Professor Sarah North.</li>
+              <li>Applied <strong>machine learning</strong> to network traffic patterns to flag threats such as malware, intrusion attempts and DDoS attacks in real time.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ PROJECTS ============ -->
+    <section class="section section-alt" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <p class="section-number reveal">04</p>
+        <h2 id="projects-title" class="reveal">Selected projects</h2>
+        <p class="section-intro reveal">Academic and personal projects. Each one taught me something new.</p>
+
+        <!-- STEP 5: when a project is on GitHub, add its link: <div class="project-links"><a href="...">Code ↗</a></div> -->
+        <div class="projects-grid">
+          <article class="project-card featured reveal">
+            <div class="project-thumb" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 200">
+                <line class="chain-link" x1="86" y1="100" x2="128" y2="100"/>
+                <line class="chain-link" x1="192" y1="100" x2="234" y2="100"/>
+                <g class="block bob1"><rect class="art-card" x="22" y="68" width="64" height="64" rx="12"/><text class="art-label" x="54" y="106" text-anchor="middle">#01</text></g>
+                <g class="block bob2">
+                  <rect class="art-accent" x="128" y="62" width="64" height="76" rx="12"/>
+                  <rect x="142" y="80" width="36" height="6" rx="3" fill="#fff" opacity=".85"/>
+                  <path d="M147 108l9 9 17-19" fill="none" stroke="#fff" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+                </g>
+                <g class="block bob3"><rect class="art-card" x="234" y="68" width="64" height="64" rx="12"/><text class="art-label" x="266" y="106" text-anchor="middle">#03</text></g>
+                <text class="art-caption" x="160" y="172" text-anchor="middle">vote recorded · immutable</text>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Featured · Master's project · 2024</p>
+              <h3>Blockchain-Based Voting System</h3>
+              <p>
+                A secure, transparent electronic voting platform that records every vote
+                immutably on a blockchain. I designed the architecture, from the MultiChain
+                network and smart contracts to consensus-based vote validation and a Gradio
+                user interface. The prototype supports anonymous, verifiable voting from a
+                computer or phone.
+              </p>
+              <ul class="chips small"><li>Python</li><li>MultiChain</li><li>Gradio</li><li>Blockchain</li></ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb small" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 180">
+                <path class="art-card" d="M160 18l58 20v48c0 38-25 62-58 76-33-14-58-38-58-76V38z"/>
+                <circle class="radar-ring" cx="160" cy="88" r="20"/>
+                <circle class="radar-ring" cx="160" cy="88" r="40"/>
+                <path class="radar-sweep" d="M160 88V48a40 40 0 0 1 34.6 20z"/>
+                <circle cx="146" cy="74" r="4" fill="#5c9a6b"/>
+                <circle cx="176" cy="104" r="4" fill="#5c9a6b"/>
+                <circle class="alert-dot" cx="182" cy="72" r="5" fill="#d0675a"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Machine learning · 2023</p>
+              <h3>Intrusion Detection System</h3>
+              <p>An ML model that analyses network traffic to catch anomalies and security breaches. I cleaned large datasets, compared models for the highest accuracy, and built dashboards to monitor intrusion patterns.</p>
+              <ul class="chips small"><li>Python</li><li>scikit-learn</li><li>Pandas</li><li>Colab</li></ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb small" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 180">
+                <rect class="road" x="0" y="140" width="320" height="28"/>
+                <line class="road-dash" x1="0" y1="154" x2="320" y2="154"/>
+                <rect class="art-muted-fill" x="156" y="96" width="8" height="44"/>
+                <rect class="art-dark" x="138" y="14" width="44" height="88" rx="12"/>
+                <circle class="tl tl-red" cx="160" cy="36" r="10"/>
+                <circle class="tl tl-amber" cx="160" cy="58" r="10"/>
+                <circle class="tl tl-green" cx="160" cy="80" r="10"/>
+                <g class="car"><rect class="art-accent" x="0" y="128" width="46" height="18" rx="6"/><circle class="art-dark" cx="11" cy="148" r="5"/><circle class="art-dark" cx="35" cy="148" r="5"/></g>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Android app · 2022</p>
+              <h3>Managing Traffic System</h3>
+              <p>An Android app that shows traffic police details and rush levels for a location, and manages vehicle types, routes and traffic data. <strong>Selected as a top-5 project</strong> at my department's project expo.</p>
+              <ul class="chips small"><li>Java</li><li>XML</li><li>MySQL</li></ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb small" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 180">
+                <rect class="art-card" x="50" y="20" width="220" height="140" rx="12"/>
+                <path class="art-bar" d="M62 20h196a12 12 0 0 1 12 12v8H50v-8a12 12 0 0 1 12-12z"/>
+                <circle cx="66" cy="30" r="3.5" fill="#e07a6b"/><circle cx="78" cy="30" r="3.5" fill="#e3b45a"/><circle cx="90" cy="30" r="3.5" fill="#6aa877"/>
+                <rect class="art-accent grow g1" x="68" y="56" width="110" height="10" rx="5"/>
+                <rect class="art-line grow g2" x="68" y="74" width="150" height="6" rx="3"/>
+                <rect class="art-line grow g3" x="68" y="86" width="120" height="6" rx="3"/>
+                <rect class="art-soft" x="68" y="104" width="56" height="40" rx="6"/>
+                <rect class="art-soft" x="132" y="104" width="56" height="40" rx="6"/>
+                <rect class="art-soft" x="196" y="104" width="56" height="40" rx="6"/>
+                <path class="cursor-arrow" d="M0 0l0 18 5-5 4 9 4-2-4-9h7z"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Web · 2026</p>
+              <h3>Personal Portfolio</h3>
+              <p>This website. Designed and built from scratch with semantic HTML, modern CSS (custom properties, grid, dark mode) and vanilla JavaScript. It is responsive and fully keyboard-accessible.</p>
+              <ul class="chips small"><li>HTML</li><li>CSS</li><li>JavaScript</li><li>Accessibility</li></ul>
+              <div class="project-links">
+                <a href="https://github.com/alekyagits/alekya-portfolio" target="_blank" rel="noopener">Source code <span aria-hidden="true">↗</span></a>
+              </div>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb small" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 180">
+                <line class="desk" x1="60" y1="150" x2="260" y2="150"/>
+                <rect class="art-soft bar-grow" x="76" y="96" width="26" height="54" rx="5"/>
+                <rect class="art-soft bar-grow" x="116" y="74" width="26" height="76" rx="5"/>
+                <rect class="art-accent bar-grow" x="156" y="104" width="26" height="46" rx="5"/>
+                <rect class="art-soft bar-grow" x="196" y="58" width="26" height="92" rx="5"/>
+                <polyline class="trend" points="80,92 128,66 168,96 214,46 246,30"/>
+                <circle class="art-accent coin" cx="250" cy="28" r="12"/>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Web app</p>
+              <h3>Expense Tracker</h3>
+              <p>Track income and expenses, see your balance at a glance, and keep your data saved in the browser.</p>
+              <ul class="chips small"><li>JavaScript</li><li>localStorage</li></ul>
+            </div>
+          </article>
+
+          <article class="project-card reveal">
+            <div class="project-thumb small" aria-hidden="true">
+              <svg class="thumb-art" viewBox="0 0 320 180">
+                <g class="sun-rays">
+                  <line x1="140" y1="22" x2="140" y2="36"/><line x1="140" y1="104" x2="140" y2="118"/>
+                  <line x1="92" y1="70" x2="106" y2="70"/><line x1="174" y1="70" x2="188" y2="70"/>
+                  <line x1="106" y1="36" x2="116" y2="46"/><line x1="164" y1="94" x2="174" y2="104"/>
+                  <line x1="106" y1="104" x2="116" y2="94"/><line x1="164" y1="46" x2="174" y2="36"/>
+                </g>
+                <circle cx="140" cy="70" r="26" fill="#e3b45a"/>
+                <path class="art-card cloud" d="M150 138h88a26 26 0 0 0 0-52 34 34 0 0 0-64-6 24 24 0 0 0-24 58z"/>
+                <text class="art-caption" x="196" y="166" text-anchor="middle">24° · Sunny</text>
+              </svg>
+            </div>
+            <div class="project-body">
+              <p class="project-tag">Web · API</p>
+              <h3>Weather App</h3>
+              <p>Search any city to get live weather from a public API, with loading and error states.</p>
+              <ul class="chips small"><li>Fetch API</li><li>Async/Await</li></ul>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ EDUCATION ============ -->
+    <section class="section" id="education" aria-labelledby="education-title">
+      <div class="container">
+        <p class="section-number reveal">05</p>
+        <h2 id="education-title" class="reveal">Education &amp; achievements</h2>
+        <ol class="timeline">
+          <li class="reveal">
+            <p class="timeline-date">2025 – Present</p>
+            <h3>Continuous learning</h3>
+            <p>Building front-end projects in HTML, CSS, JavaScript, Bootstrap and React, and learning AI-assisted development.</p>
+          </li>
+          <li class="reveal">
+            <p class="timeline-date">Aug 2023 – Dec 2024</p>
+            <h3>Master of Computer Science</h3>
+            <p>Kennesaw State University · Marietta, Georgia, USA</p>
+          </li>
+          <li class="reveal">
+            <p class="timeline-date">Aug 2019 – Apr 2023</p>
+            <h3>Bachelor of Technology, Computer Science</h3>
+            <p>Vasireddy Venkatadri Institute of Technology · Guntur, India</p>
+          </li>
+        </ol>
+
+        <div class="extras-grid">
+          <article class="skill-card reveal">
+            <p class="project-tag">Publication · 2023</p>
+            <h3>Accurate Stress Detection of Elderly Patients Using ML Algorithms</h3>
+            <p class="muted">
+              A real-time approach to detecting stress levels in elderly patients from
+              physiological data, using K-Nearest Neighbors and Naive Bayes classifiers.
+              It reached high classification accuracy and has potential for healthcare monitoring.
+            </p>
+          </article>
+          <article class="skill-card reveal">
+            <p class="project-tag">Lifelong learning</p>
+            <h3>Certifications</h3>
+            <ul class="cert-list">
+              <li>AWS Academy Cloud Foundations <span>AWS Academy</span></li>
+              <li>Cloud Computing <span>NPTEL</span></li>
+              <li>Java Full Stack <span>Wipro TalentNext</span></li>
+              <li>Python Functions, Files, and Dictionaries <span>Coursera</span></li>
+              <li>Python Classes and Inheritance <span>Coursera</span></li>
+            </ul>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ CONTACT ============ -->
+    <section class="section section-alt contact" id="contact" aria-labelledby="contact-title">
+      <div class="container contact-inner">
+        <svg class="rocket reveal" viewBox="0 0 120 150" role="img" aria-labelledby="rocket-title">
+          <title id="rocket-title">A rocket taking off, ready to launch a new career</title>
+          <g class="rocket-body">
+            <path class="flame" d="M48 104c0 18 12 30 12 30s12-12 12-30z"/>
+            <path class="art-accent" d="M40 92l-14 18 22-4zM80 92l14 18-22-4z"/>
+            <path class="art-card" d="M60 10c18 16 24 40 22 84H38c-2-44 4-68 22-84z"/>
+            <circle class="art-accent" cx="60" cy="52" r="10"/>
+            <circle cx="60" cy="52" r="5" fill="#fff" opacity=".8"/>
+            <rect class="art-dark" x="44" y="92" width="32" height="10" rx="3"/>
+          </g>
+          <circle class="spark sp1" cx="18" cy="40" r="2.5"/>
+          <circle class="spark sp2" cx="102" cy="28" r="2"/>
+          <circle class="spark sp3" cx="98" cy="74" r="2.5"/>
+        </svg>
+        <p class="section-number reveal">06</p>
+        <h2 id="contact-title" class="reveal">Let's work together</h2>
+        <p class="section-intro reveal">
+          I'm actively looking for entry-level software and web developer roles.
+          Have an opportunity, want my resume, or just want to say hello? Send me a
+          message below and it lands straight in my inbox.
+        </p>
+
+        <div class="contact-card reveal">
+          <!-- Messages go to Alekya's inbox through Formspree; her email address never appears on the page.
+               Set data-endpoint to the form URL from formspree.io (looks like https://formspree.io/f/abcdwxyz). -->
+          <form class="contact-form" id="contact-form" data-endpoint="" novalidate>
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-name">Your name</label>
+                <input id="cf-name" name="name" type="text" autocomplete="name" required maxlength="80" placeholder="Jane Recruiter">
+              </div>
+              <div class="field">
+                <label for="cf-email">Your email</label>
+                <input id="cf-email" name="email" type="email" autocomplete="email" required maxlength="120" placeholder="jane@company.com">
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="field">
+                <label for="cf-company">Company <span class="optional">(optional)</span></label>
+                <input id="cf-company" name="company" type="text" autocomplete="organization" maxlength="100" placeholder="Company name">
+              </div>
+              <div class="field">
+                <label for="cf-topic">What's it about?</label>
+                <select id="cf-topic" name="topic">
+                  <option>Job opportunity</option>
+                  <option>Internship / contract role</option>
+                  <option>Resume request</option>
+                  <option>Just saying hello</option>
+                </select>
+              </div>
+            </div>
+            <div class="field">
+              <label for="cf-message">Message</label>
+              <textarea id="cf-message" name="message" rows="5" required minlength="10" maxlength="2000" placeholder="Tell me about the role or what you'd like to talk about…"></textarea>
+            </div>
+            <!-- Honeypot: hidden from people, bots fill it in and get ignored -->
+            <div class="hp" aria-hidden="true">
+              <label for="cf-website">Leave this empty</label>
+              <input id="cf-website" name="_gotcha" type="text" tabindex="-1" autocomplete="off">
+            </div>
+            <button class="btn btn-primary btn-large send-btn" type="submit">
+              <span class="send-label">Send message</span>
+              <svg class="plane" viewBox="0 0 24 24" aria-hidden="true"><path d="M3 11l18-8-8 18-2-8z"/></svg>
+            </button>
+            <p class="form-status" role="status" aria-live="polite"></p>
+          </form>
+
+          <div class="form-success" id="form-success" hidden tabindex="-1">
+            <svg class="success-check" viewBox="0 0 52 52" aria-hidden="true">
+              <circle cx="26" cy="26" r="24"/>
+              <path d="M15 27l7 7 15-16"/>
+            </svg>
+            <h3>Thank you!</h3>
+            <p>Your message is on its way to my inbox. I'll get back to you soon.</p>
+            <button class="btn btn-ghost" type="button" id="send-another">Send another message</button>
+          </div>
+        </div>
+
+        <ul class="socials reveal">
+          <li><a href="https://www.linkedin.com/in/linga-alekya" target="_blank" rel="noopener">LinkedIn</a></li>
+          <li><a href="https://github.com/alekyagits" target="_blank" rel="noopener">GitHub</a></li>
+        </ul>
+      </div>
+    </section>
+
+    <a class="fab" href="#contact" aria-label="Contact me about an opportunity">
+      <span aria-hidden="true">✉</span><span class="fab-label">Hire me</span>
+    </a>
+  </main>
+
+  <footer class="site-footer">
+    <div class="container">
+      <p>© <span id="year">2026</span> Alekya Linga · Designed &amp; built by me.</p>
+      <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+    </div>
+  </footer>
+
+  <script src="./script.js" defer></script>
+</body>
+</html>
