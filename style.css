@@ -485,8 +485,8 @@ h3 { font-size: 1.5rem; }
   background: var(--surface); border: 1px solid var(--line); box-shadow: var(--shadow);
   font-size: 0.85rem; font-weight: 500;
 }
-.t1 { top: 12%; right: -0.5rem; }
-.t2 { top: 48%; left: -0.5rem; }
+.t1 { top: 36%; right: -0.5rem; }
+.t2 { top: 60%; left: -0.5rem; }
 .t3 { bottom: 8%; right: 0.5rem; }
 
 /* ---------- Project thumbnails ---------- */
@@ -516,7 +516,7 @@ h3 { font-size: 1.5rem; }
   aspect-ratio: 4 / 5; width: 100%; height: auto;
   border-radius: 200px 200px var(--radius) var(--radius);
   object-fit: cover;
-  object-position: 50% 100%; /* keeps the face, crops the sticker at the top-left */
+  object-position: 50% 0%; /* keep the face centred; the sides are what gets trimmed */
   box-shadow: var(--shadow);
   background: var(--bg-alt);
 }

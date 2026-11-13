@@ -50,7 +50,7 @@ the mobile menu, the scroll animations and the active nav link.
 - [x] No public resume download. Recruiters pick "Resume request" in the form and you reply with your PDF
 - [ ] Paste your Formspree form URL into `data-endpoint` on `<form id="contact-form">` in `index.html`
 - [ ] Check that the LinkedIn link opens your profile
-- [ ] `asserts/profile.jpg`: your photo
+- [x] Your photo: `asserts/alekya.jpg`
 - [ ] Read the About text and adjust it so it sounds like you
 
 > Privacy: `.gitignore` blocks every `*.pdf`, so a resume with your phone number or email can't be pushed by accident.
